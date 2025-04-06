@@ -19,7 +19,8 @@ public class Data
 public class DataAgent : MonoBehaviour
 {
     public Data Energy = new Data();
-    public Data Sleep = new Data();
+    public Data Hunger = new Data(); // Nueva variable
+    public Data Hygiene = new Data(); // Nueva variable
     public Data WC = new Data();
     Coroutine CoroutineEnergy=null;
 
